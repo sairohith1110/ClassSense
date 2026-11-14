@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f4fb;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.create-post-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.create-post-container h1 {
+    color: #172554;
+    margin-bottom: 25px;
+}
+
+.create-post-container label {
+    display: block;
+    margin: 18px 0 8px;
+    font-weight: bold;
+    color: #334155;
+}
+
+.create-post-container input,
+.create-post-container textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    font-size: 15px;
+    outline: none;
+}
+
+.create-post-container input:focus,
+.create-post-container textarea:focus {
+    border-color: #6366f1;
+}
+
+.create-post-container textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+.create-post-container button {
+    margin-top: 22px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: #4f46e5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-post-container button:hover {
+    background: #3730a3;
+}

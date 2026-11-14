@@ -1,0 +1,12 @@
+
+# Local database and configuration
+*.sql
+includes/db.php
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/

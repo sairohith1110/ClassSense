@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f6ff;
+    color: #20234b;
+    min-height: 100vh;
+}
+
+.join-class-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.join-class-container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(32, 35, 75, 0.09);
+}
+
+.join-class-container h1 {
+    color: #272752;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.join-class-container .subtitle {
+    color: #85869b;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.join-class-container label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #34365d;
+}
+
+.join-class-container input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dedfee;
+    border-radius: 11px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.join-class-container input:focus {
+    border-color: #7061e8;
+    box-shadow: 0 0 0 3px #7061e820;
+}
+
+.join-class-container button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(135deg, #5e50df, #8063ee);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.join-class-container button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px #6655df40;
+}
+
+.join-class-container .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 22px;
+    color: #5e50df;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.join-class-container .back-link:hover {
+    text-decoration: underline;
+}
+
+.message {
+    padding: 12px;
+    border-radius: 9px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+@media(max-width: 550px) {
+    .join-class-container {
+        padding: 25px 20px;
+    }
+}
